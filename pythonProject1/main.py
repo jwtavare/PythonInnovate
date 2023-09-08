@@ -7,11 +7,18 @@ while True:
    match user_action:
          case "add":
             todo = input("Enter a todo: ")
-   print(todos)
+            todos.append(todo)
+         case "show":
+            print(todos)
+         case "exit":
+            break
+
+print("Goodbye!")
 
 
 
 
 
-Jay
+
+
 
